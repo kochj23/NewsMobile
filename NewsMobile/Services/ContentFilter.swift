@@ -9,6 +9,7 @@
 
 import Foundation
 
+@MainActor
 class ContentFilter {
     private let adKeywords = [
         "sponsored", "advertisement", "ad:", "[ad]", "promoted",
