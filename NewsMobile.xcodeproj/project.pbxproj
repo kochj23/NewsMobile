@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		APP001 /* NewsMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC001; };
+		APP002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC002; };
+		APP003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = RES001; };
+		APP004 /* NewsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC003; };
+		APP005 /* RSSParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC004; };
+		APP006 /* NewsAggregator.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC005; };
+		APP007 /* SettingsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC006; };
+		APP008 /* SentimentAnalyzer.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC007; };
+		APP009 /* EntityExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC008; };
+		APP010 /* TTSManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC009; };
+		APP011 /* WatchLaterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC010; };
+		APP012 /* PersonalizationEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC011; };
+		APP013 /* StoryClusterEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC012; };
+		APP014 /* LocalNewsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC013; };
+		APP015 /* KeywordAlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC014; };
+		APP016 /* TrendingTopicsEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC015; };
+		APP017 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC016; };
+		APP018 /* CustomFeedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC017; };
+		APP019 /* ContentFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC018; };
+		APP020 /* CloudSyncManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC019; };
+		APP021 /* BackgroundRefreshManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC020; };
+		APP022 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC021; };
+		APP023 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC022; };
+		APP024 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC023; };
+		APP025 /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC024; };
+		APP026 /* ArticleWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC025; };
+		APP027 /* ForYouView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC026; };
+		APP028 /* WatchLaterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC027; };
+		APP029 /* LocalNewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC028; };
+		APP030 /* KeywordAlertsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC029; };
+		APP031 /* CustomFeedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC030; };
+		APP032 /* StoryClusterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC031; };
+		APP033 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC032; };
+		APP034 /* ArticleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC033; };
+		APP035 /* WeatherWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC034; };
+		APP036 /* TrendingBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC035; };
+		APP037 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC036; };
+		APP038 /* AudioBriefingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC037; };
+		APP039 /* BreakingNewsBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC038; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		PRD001 /* NewsMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		SRC001 /* NewsMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsMobileApp.swift; sourceTree = "<group>"; };
+		SRC002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		RES001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		SRC003 /* NewsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModels.swift; sourceTree = "<group>"; };
+		SRC004 /* RSSParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RSSParser.swift; sourceTree = "<group>"; };
+		SRC005 /* NewsAggregator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAggregator.swift; sourceTree = "<group>"; };
+		SRC006 /* SettingsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsManager.swift; sourceTree = "<group>"; };
+		SRC007 /* SentimentAnalyzer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentAnalyzer.swift; sourceTree = "<group>"; };
+		SRC008 /* EntityExtractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityExtractor.swift; sourceTree = "<group>"; };
+		SRC009 /* TTSManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTSManager.swift; sourceTree = "<group>"; };
+		SRC010 /* WatchLaterManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLaterManager.swift; sourceTree = "<group>"; };
+		SRC011 /* PersonalizationEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalizationEngine.swift; sourceTree = "<group>"; };
+		SRC012 /* StoryClusterEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryClusterEngine.swift; sourceTree = "<group>"; };
+		SRC013 /* LocalNewsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNewsService.swift; sourceTree = "<group>"; };
+		SRC014 /* KeywordAlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordAlertManager.swift; sourceTree = "<group>"; };
+		SRC015 /* TrendingTopicsEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingTopicsEngine.swift; sourceTree = "<group>"; };
+		SRC016 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		SRC017 /* CustomFeedManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFeedManager.swift; sourceTree = "<group>"; };
+		SRC018 /* ContentFilter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentFilter.swift; sourceTree = "<group>"; };
+		SRC019 /* CloudSyncManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudSyncManager.swift; sourceTree = "<group>"; };
+		SRC020 /* BackgroundRefreshManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRefreshManager.swift; sourceTree = "<group>"; };
+		SRC021 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		SRC022 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		SRC023 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		SRC024 /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
+		SRC025 /* ArticleWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleWebView.swift; sourceTree = "<group>"; };
+		SRC026 /* ForYouView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForYouView.swift; sourceTree = "<group>"; };
+		SRC027 /* WatchLaterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLaterView.swift; sourceTree = "<group>"; };
+		SRC028 /* LocalNewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNewsView.swift; sourceTree = "<group>"; };
+		SRC029 /* KeywordAlertsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordAlertsView.swift; sourceTree = "<group>"; };
+		SRC030 /* CustomFeedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFeedsView.swift; sourceTree = "<group>"; };
+		SRC031 /* StoryClusterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryClusterView.swift; sourceTree = "<group>"; };
+		SRC032 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		SRC033 /* ArticleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCard.swift; sourceTree = "<group>"; };
+		SRC034 /* WeatherWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWidget.swift; sourceTree = "<group>"; };
+		SRC035 /* TrendingBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrendingBar.swift; sourceTree = "<group>"; };
+		SRC036 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		SRC037 /* AudioBriefingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBriefingView.swift; sourceTree = "<group>"; };
+		SRC038 /* BreakingNewsBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakingNewsBanner.swift; sourceTree = "<group>"; };
+		ENT001 /* NewsMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewsMobile.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FRM001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		GRP000 = {
+			isa = PBXGroup;
+			children = (
+				GRP001 /* NewsMobile */,
+				GRP010 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		GRP001 /* NewsMobile */ = {
+			isa = PBXGroup;
+			children = (
+				SRC001 /* NewsMobileApp.swift */,
+				SRC002 /* ContentView.swift */,
+				GRP002 /* Models */,
+				GRP003 /* Services */,
+				GRP004 /* ML */,
+				GRP005 /* Views */,
+				GRP009 /* Resources */,
+				ENT001 /* NewsMobile.entitlements */,
+			);
+			path = NewsMobile;
+			sourceTree = "<group>";
+		};
+		GRP002 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				SRC003 /* NewsModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		GRP003 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				SRC004 /* RSSParser.swift */,
+				SRC005 /* NewsAggregator.swift */,
+				SRC006 /* SettingsManager.swift */,
+				SRC009 /* TTSManager.swift */,
+				SRC010 /* WatchLaterManager.swift */,
+				SRC011 /* PersonalizationEngine.swift */,
+				SRC012 /* StoryClusterEngine.swift */,
+				SRC013 /* LocalNewsService.swift */,
+				SRC014 /* KeywordAlertManager.swift */,
+				SRC015 /* TrendingTopicsEngine.swift */,
+				SRC016 /* WeatherService.swift */,
+				SRC017 /* CustomFeedManager.swift */,
+				SRC018 /* ContentFilter.swift */,
+				SRC019 /* CloudSyncManager.swift */,
+				SRC020 /* BackgroundRefreshManager.swift */,
+				SRC021 /* NotificationManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		GRP004 /* ML */ = {
+			isa = PBXGroup;
+			children = (
+				SRC007 /* SentimentAnalyzer.swift */,
+				SRC008 /* EntityExtractor.swift */,
+			);
+			path = ML;
+			sourceTree = "<group>";
+		};
+		GRP005 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				SRC022 /* HomeView.swift */,
+				SRC023 /* CategoryView.swift */,
+				SRC024 /* ArticleDetailView.swift */,
+				SRC025 /* ArticleWebView.swift */,
+				SRC026 /* ForYouView.swift */,
+				SRC027 /* WatchLaterView.swift */,
+				SRC028 /* LocalNewsView.swift */,
+				SRC029 /* KeywordAlertsView.swift */,
+				SRC030 /* CustomFeedsView.swift */,
+				SRC031 /* StoryClusterView.swift */,
+				SRC032 /* SettingsView.swift */,
+				SRC036 /* SearchView.swift */,
+				SRC037 /* AudioBriefingView.swift */,
+				GRP006 /* Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		GRP006 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				SRC033 /* ArticleCard.swift */,
+				SRC034 /* WeatherWidget.swift */,
+				SRC035 /* TrendingBar.swift */,
+				SRC038 /* BreakingNewsBanner.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		GRP009 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				RES001 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		GRP010 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				PRD001 /* NewsMobile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		TGT001 /* NewsMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFG003;
+			buildPhases = (
+				SRC100 /* Sources */,
+				FRM001 /* Frameworks */,
+				RES100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewsMobile;
+			productName = NewsMobile;
+			productReference = PRD001 /* NewsMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		PRJ001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					TGT001 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = CFG001;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = GRP000;
+			productRefGroup = GRP010 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				TGT001 /* NewsMobile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		RES100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				APP003 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		SRC100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				APP001 /* NewsMobileApp.swift in Sources */,
+				APP002 /* ContentView.swift in Sources */,
+				APP004 /* NewsModels.swift in Sources */,
+				APP005 /* RSSParser.swift in Sources */,
+				APP006 /* NewsAggregator.swift in Sources */,
+				APP007 /* SettingsManager.swift in Sources */,
+				APP008 /* SentimentAnalyzer.swift in Sources */,
+				APP009 /* EntityExtractor.swift in Sources */,
+				APP010 /* TTSManager.swift in Sources */,
+				APP011 /* WatchLaterManager.swift in Sources */,
+				APP012 /* PersonalizationEngine.swift in Sources */,
+				APP013 /* StoryClusterEngine.swift in Sources */,
+				APP014 /* LocalNewsService.swift in Sources */,
+				APP015 /* KeywordAlertManager.swift in Sources */,
+				APP016 /* TrendingTopicsEngine.swift in Sources */,
+				APP017 /* WeatherService.swift in Sources */,
+				APP018 /* CustomFeedManager.swift in Sources */,
+				APP019 /* ContentFilter.swift in Sources */,
+				APP020 /* CloudSyncManager.swift in Sources */,
+				APP021 /* BackgroundRefreshManager.swift in Sources */,
+				APP022 /* NotificationManager.swift in Sources */,
+				APP023 /* HomeView.swift in Sources */,
+				APP024 /* CategoryView.swift in Sources */,
+				APP025 /* ArticleDetailView.swift in Sources */,
+				APP026 /* ArticleWebView.swift in Sources */,
+				APP027 /* ForYouView.swift in Sources */,
+				APP028 /* WatchLaterView.swift in Sources */,
+				APP029 /* LocalNewsView.swift in Sources */,
+				APP030 /* KeywordAlertsView.swift in Sources */,
+				APP031 /* CustomFeedsView.swift in Sources */,
+				APP032 /* StoryClusterView.swift in Sources */,
+				APP033 /* SettingsView.swift in Sources */,
+				APP034 /* ArticleCard.swift in Sources */,
+				APP035 /* WeatherWidget.swift in Sources */,
+				APP036 /* TrendingBar.swift in Sources */,
+				APP037 /* SearchView.swift in Sources */,
+				APP038 /* AudioBriefingView.swift in Sources */,
+				APP039 /* BreakingNewsBanner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CFG002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFG002R /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFG004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NewsMobile/NewsMobile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4W89S5N8VH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "News Mobile";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jordankoch.NewsMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFG004R /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NewsMobile/NewsMobile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4W89S5N8VH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "News Mobile";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.news";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jordankoch.NewsMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFG001 /* Build configuration list for PBXProject "NewsMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFG002 /* Debug */,
+				CFG002R /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFG003 /* Build configuration list for PBXNativeTarget "NewsMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFG004 /* Debug */,
+				CFG004R /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = PRJ001 /* Project object */;
+}
