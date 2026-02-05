@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		045675C92A3B042AC4C1AB70 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FC7C86CA969D967FF25B70 /* WidgetKit.framework */; };
+		3643BBC9461DAD306C9D550D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 887E52DCD82C8FE24716C30B /* Foundation.framework */; };
+		557C2D8B8E0E590615F69F22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE2C47F0A37D691D490B074 /* Assets.xcassets */; };
+		5B1489B29072CCD614E219AE /* NewsMobileWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38AB92EF1035F762784316B /* NewsMobileWidget.swift */; };
+		5B4908E48CE5D19FBCE69E6D /* NewsMobileWidget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 522382EB3CCC51EF8323F679 /* NewsMobileWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		APP001 /* NewsMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC001 /* NewsMobileApp.swift */; };
 		APP002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC002 /* ContentView.swift */; };
 		APP003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = RES001 /* Assets.xcassets */; };
@@ -48,7 +53,38 @@
 		APP039 /* BreakingNewsBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = SRC038 /* BreakingNewsBanner.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		AA77A79BF88F64A73DBC31CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = PRJ001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5FCF5AC7BC837F69FFE97DB;
+			remoteInfo = NewsMobileWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EDDA91DA19B144BF90216DD4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5B4908E48CE5D19FBCE69E6D /* NewsMobileWidget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		522382EB3CCC51EF8323F679 /* NewsMobileWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NewsMobileWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		61FC7C86CA969D967FF25B70 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		66F8F4956238A45BB3ACC47A /* NewsMobileWidget.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = NewsMobileWidget.entitlements; sourceTree = "<group>"; };
+		887E52DCD82C8FE24716C30B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B38AB92EF1035F762784316B /* NewsMobileWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NewsMobileWidget.swift; sourceTree = "<group>"; };
+		BEE2C47F0A37D691D490B074 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6F6B4C49C71C4B61B1DA2AD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ENT001 /* NewsMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewsMobile.entitlements; sourceTree = "<group>"; };
 		PRD001 /* NewsMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		RES001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +129,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F50C65DED810D7EA23B80864 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3643BBC9461DAD306C9D550D /* Foundation.framework in Frameworks */,
+				045675C92A3B042AC4C1AB70 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FRM001 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -103,11 +148,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18551E9A7679CDA2BFADEFC3 /* NewsMobileWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B38AB92EF1035F762784316B /* NewsMobileWidget.swift */,
+				C6F6B4C49C71C4B61B1DA2AD /* Info.plist */,
+				66F8F4956238A45BB3ACC47A /* NewsMobileWidget.entitlements */,
+				BEE2C47F0A37D691D490B074 /* Assets.xcassets */,
+			);
+			name = NewsMobileWidget;
+			path = NewsMobileWidget;
+			sourceTree = "<group>";
+		};
+		55B563F531D45BEAEF56E406 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				887E52DCD82C8FE24716C30B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6A142543D46E3AA1BB33F160 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55B563F531D45BEAEF56E406 /* iOS */,
+				61FC7C86CA969D967FF25B70 /* WidgetKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		GRP000 = {
 			isa = PBXGroup;
 			children = (
 				GRP001 /* NewsMobile */,
 				GRP010 /* Products */,
+				6A142543D46E3AA1BB33F160 /* Frameworks */,
+				18551E9A7679CDA2BFADEFC3 /* NewsMobileWidget */,
 			);
 			sourceTree = "<group>";
 		};
@@ -210,6 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				PRD001 /* NewsMobile.app */,
+				522382EB3CCC51EF8323F679 /* NewsMobileWidget.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,6 +294,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E5FCF5AC7BC837F69FFE97DB /* NewsMobileWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9B071C71D1E6D13E5FBBE4F /* Build configuration list for PBXNativeTarget "NewsMobileWidget" */;
+			buildPhases = (
+				268D632C09845DA85B2DFAB7 /* Sources */,
+				F50C65DED810D7EA23B80864 /* Frameworks */,
+				2C58EE49764C1451C463FD49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewsMobileWidget;
+			productName = NewsMobileWidget;
+			productReference = 522382EB3CCC51EF8323F679 /* NewsMobileWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		TGT001 /* NewsMobile */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFG003 /* Build configuration list for PBXNativeTarget "NewsMobile" */;
@@ -224,10 +318,12 @@
 				SRC100 /* Sources */,
 				FRM001 /* Frameworks */,
 				RES100 /* Resources */,
+				EDDA91DA19B144BF90216DD4 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				7CAF0E3B7AA375534F02EB41 /* PBXTargetDependency */,
 			);
 			name = NewsMobile;
 			productName = NewsMobile;
@@ -263,11 +359,20 @@
 			projectRoot = "";
 			targets = (
 				TGT001 /* NewsMobile */,
+				E5FCF5AC7BC837F69FFE97DB /* NewsMobileWidget */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2C58EE49764C1451C463FD49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				557C2D8B8E0E590615F69F22 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		RES100 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -279,6 +384,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		268D632C09845DA85B2DFAB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B1489B29072CCD614E219AE /* NewsMobileWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		SRC100 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -326,7 +439,42 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		7CAF0E3B7AA375534F02EB41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NewsMobileWidget;
+			target = E5FCF5AC7BC837F69FFE97DB /* NewsMobileWidget */;
+			targetProxy = AA77A79BF88F64A73DBC31CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		A256A1982A9C079A36A7458A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = NewsMobileWidget/NewsMobileWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRRCB8HB3W;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NewsMobileWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jordankoch.NewsMobile.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		CFG002 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -512,6 +660,33 @@
 			};
 			name = Release;
 		};
+		F4B7BBCEA00DAA6E226723EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_ENTITLEMENTS = NewsMobileWidget/NewsMobileWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QRRCB8HB3W;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = NewsMobileWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jordankoch.NewsMobile.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -529,6 +704,15 @@
 			buildConfigurations = (
 				CFG004 /* Debug */,
 				CFG004R /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9B071C71D1E6D13E5FBBE4F /* Build configuration list for PBXNativeTarget "NewsMobileWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4B7BBCEA00DAA6E226723EE /* Release */,
+				A256A1982A9C079A36A7458A /* Debug */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
