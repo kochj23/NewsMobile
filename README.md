@@ -1,5 +1,7 @@
 # News Mobile - AI-Powered News for iPhone & iPad
 
+![Build](https://github.com/kochj23/NewsMobile/actions/workflows/build.yml/badge.svg)
+
 **On-Device Machine Learning News Reader with Sentiment Analysis, Personalization, and Multi-Source Comparison**
 
 ![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20iPadOS%2017.0%2B-blue)
