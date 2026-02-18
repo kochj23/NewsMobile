@@ -147,3 +147,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 *News Mobile v1.0.0 - AI-Powered News in Your Pocket*
 
 © 2026 Jordan Koch. All rights reserved.
+
+---
+
+> **Disclaimer:** This is a personal project created on my own time. It is not affiliated with, endorsed by, or representative of my employer.
