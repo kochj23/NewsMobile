@@ -73,7 +73,6 @@ Built as a companion to NewsTV (Apple TV), News Mobile is optimized for mobile t
 | Category | Sources |
 |----------|---------|
 | **Top Stories** | Associated Press, Reuters, NPR |
-| **Disney** | Disney Parks Blog, D23, Google News Disney |
 | **US** | NY Times |
 | **World** | BBC, The Guardian |
 | **Technology** | TechCrunch, Ars Technica, The Verge |
