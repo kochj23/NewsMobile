@@ -59,7 +59,7 @@ struct KeywordAlertsView: View {
                 // Suggestions
                 if settings.settings.keywordAlerts.isEmpty {
                     Section("Suggestions") {
-                        ForEach(["Apple", "Tesla", "AI", "Climate", "Bitcoin", "Disney"], id: \.self) { keyword in
+                        ForEach(["Apple", "Tesla", "AI", "Climate", "Bitcoin", "Entertainment"], id: \.self) { keyword in
                             Button {
                                 alertManager.addAlert(keyword: keyword)
                             } label: {
