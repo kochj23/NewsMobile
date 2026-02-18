@@ -31,10 +31,6 @@ class NewsAggregator: ObservableObject {
         NewsSource(name: "Reuters", feedURL: URL(string: "https://feedx.net/rss/reuters.xml")!, category: .topStories, bias: .center, reliability: 0.95),
         NewsSource(name: "NPR", feedURL: URL(string: "https://feeds.npr.org/1001/rss.xml")!, category: .topStories, bias: .leanLeft, reliability: 0.9),
 
-        // Disney
-        NewsSource(name: "Disney Parks Blog", feedURL: URL(string: "https://disneyparks.disney.go.com/blog/feed/")!, category: .disney, bias: .center, reliability: 0.9),
-        NewsSource(name: "D23", feedURL: URL(string: "https://d23.com/feed/")!, category: .disney, bias: .center, reliability: 0.9),
-        NewsSource(name: "Disney News", feedURL: URL(string: "https://news.google.com/rss/search?q=Disney&hl=en-US&gl=US&ceid=US:en")!, category: .disney, bias: .center, reliability: 0.8),
 
         // US News
         NewsSource(name: "NY Times US", feedURL: URL(string: "https://rss.nytimes.com/services/xml/rss/nyt/US.xml")!, category: .us, bias: .leanLeft, reliability: 0.9),
