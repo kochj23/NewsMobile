@@ -14,7 +14,6 @@ import SwiftUI
 
 enum NewsCategory: String, CaseIterable, Codable, Identifiable {
     case topStories = "Top Stories"
-    case disney = "Disney"
     case us = "US"
     case world = "World"
     case business = "Business"
@@ -30,7 +29,6 @@ enum NewsCategory: String, CaseIterable, Codable, Identifiable {
     var icon: String {
         switch self {
         case .topStories: return "star.fill"
-        case .disney: return "sparkles"
         case .us: return "flag.fill"
         case .world: return "globe"
         case .business: return "chart.line.uptrend.xyaxis"
@@ -46,7 +44,6 @@ enum NewsCategory: String, CaseIterable, Codable, Identifiable {
     var color: String {
         switch self {
         case .topStories: return "FF6B6B"
-        case .disney: return "1E90FF"
         case .us: return "4ECDC4"
         case .world: return "45B7D1"
         case .business: return "96CEB4"
