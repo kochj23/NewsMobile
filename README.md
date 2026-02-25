@@ -115,6 +115,18 @@ Built as a companion to NewsTV (Apple TV), News Mobile is optimized for mobile t
 
 ---
 
+## Security
+
+News Mobile follows secure coding practices:
+
+- **Safe type casting** - All background task handlers use guard-let safe casting instead of force casts, preventing potential runtime crashes from unexpected task types
+- **No external dependencies** - Uses only Apple first-party frameworks
+- **Input validation** - RSS feed parsing validates all input data
+- **No credential storage** - No API keys, tokens, or passwords required
+- **Secure WebView** - Article WebView restricts navigation to trusted domains
+
+---
+
 ## Privacy
 
 News Mobile respects your privacy:
