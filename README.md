@@ -14,7 +14,7 @@
 
 ## Overview
 
-News Mobile brings AI-powered news analysis to your iPhone and iPad. Using Apple's on-device machine learning frameworks (NaturalLanguage, Vision), it provides real-time sentiment analysis, named entity recognition, personalized feeds, and multi-source story comparison - all without requiring cloud services.
+News Mobile brings AI-powered news analysis to your iPhone and iPad. Using Apple's on-device ML (Machine Learning) frameworks (NaturalLanguage, Vision), it provides real-time sentiment analysis, named entity recognition, personalized feeds, and multi-source story comparison - all without requiring cloud services.
 
 Built as a companion to NewsTV (Apple TV), News Mobile is optimized for mobile touch interactions with a beautiful, native SwiftUI interface.
 
@@ -50,7 +50,7 @@ Built as a companion to NewsTV (Apple TV), News Mobile is optimized for mobile t
 - **Multi-Source Story View** - Compare how different sources cover stories
 - **Local News** - News from your ZIP code or city
 - **Keyword Alerts** - Monitor for specific topics
-- **Custom RSS Feeds** - Add any RSS feed
+- **Custom RSS (Really Simple Syndication) Feeds** - Add any RSS feed
 - **Weather Widget** - Current conditions at a glance
 - **Trending Topics** - See what's trending across sources
 - **Content Filtering** - Removes ads and sponsored content
